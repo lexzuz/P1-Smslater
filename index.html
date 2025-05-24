@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Message Delayer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Message Delayer</h1>
+
+  <label for="messageInput">Message:</label>
+  <textarea id="messageInput"></textarea><br><br>
+
+  <label for="delayInput">Delay (seconds):</label>
+  <input type="number" id="delayInput" min="1"><br><br>
+
+  <button id="scheduleButton">Schedule Message</button>
+
+  <h2>Scheduled Messages</h2>
+  <div id="scheduledMessagesList"></div>
+
+  <h2>Sent Messages</h2>
+  <div id="sentMessagesList"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
